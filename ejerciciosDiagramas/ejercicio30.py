@@ -5,7 +5,7 @@ b50 = 0
 b20 = 0
 b10 = 0
 b5 = 0
-n = int(input("Introduce un número de billetes múltiplo de 5: "))
+n = int(input("Introduce una cantidad de dinero múltiplo de 5: "))
 
 while True:
     

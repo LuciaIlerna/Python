@@ -1,3 +1,5 @@
+# 10. Escriba un programa que lea dos números, calcule y muestre el valor de sus suma, resta, producto y división (Ten en cuenta la división por cero)
+
 num1 = int(print("Introduce el primer número: "))
 num2 = int(print("Introduce el segundo número: "))
 suma = num1 + num2

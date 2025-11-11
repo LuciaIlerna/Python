@@ -1,3 +1,5 @@
+# 12. Escriba un programa que lea un número y dice si es positivo o negativo, consideramos el cero como positivo.
+
 num = int(input("Introduce un número: "))
 if num >= 0:
     print("El número es positivo")

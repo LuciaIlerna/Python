@@ -1,26 +1,32 @@
-opcion = 50
-limitSup = 100
-limitInf = 0
-print("Piensa un número del 1 al 100 y lo intentaré adivinar. Introduce 0 si he acertado, 1 si tu número es menor, o 2 si es mayor")
+limiteInf = 1
+limiteSup = 100
+intentos = 0
 
-def adivinar (limitSup, limitInf, opcion):
-    intentos = 0
-    while True:
-        print("[0] Acierto : [1] Menor : [2] Mayor")
-        num = int(input(f"¿Tu número es {opcion}?"))
-        intentos += 1
-        if num == 0:
-            break
-        elif num == 1:
-            limitSup = opcion
-            opcion -= (limitSup - limitInf) 
-            
-        elif num == 2:
-            limitSup = opcion
-            opcion += (limitSup - limitInf)
-            
-    return intentos
+print(f"\nPiensa un número entre {limiteInf} y {limiteSup}.")
+print("Introduce '0' si acierto, '1' si tu número es menor o '2' si es mayor.")
 
-intentos = adivinar (limitSup, limitInf, opcion)
-print("He adivinado el número en", intentos, "intentos.")
+
+while True:
+    guess = (limiteInf + limiteSup) // 2
+    
+    print ("\n[0] Acierto : [1] Menor : [2] Mayor")
+    opc = int(input(f"¿Tu número es {guess}? "))
+    intentos += 1
+
+
+    if opc == 0: 
+        break
+    
+    elif opc == 1: 
+        limiteSup = guess - 1
+        
+    elif opc == 2: 
+        limiteInf = guess + 1
+        
+    else: 
+        print("Error.")
+
+
+print(f"He usado {intentos} intentos.")
+
             

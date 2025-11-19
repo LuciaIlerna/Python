@@ -1,0 +1,1 @@
+# 14. Dado un número de dos cifras, diseñe un algoritmo que permita obtener el número invertido.

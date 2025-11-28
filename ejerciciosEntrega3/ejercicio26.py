@@ -3,3 +3,15 @@
 #• El exponente sea positivo, sólo tienes que imprimir la potencia.
 #• El exponente sea 0, el resultado es 1.
 #• El exponente sea negativo, el resultado es 1/potencia con el exponente positivo.
+
+base = float(input("Ingrese la base: "))
+exponente = int(input("Ingrese el exponente: "))
+
+if exponente > 0:
+    resultado = base ** exponente
+elif exponente == 0:
+    resultado = 1
+else:
+    resultado = 1 / (base ** (-exponente))
+
+print("El resultado es:", resultado)

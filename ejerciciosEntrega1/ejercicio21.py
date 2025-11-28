@@ -31,4 +31,4 @@ if dinero > 500:
     impuesto2 = sobra * 0.45
     impuesto += impuesto1 + impuesto2
     
-print("El dinero neto es: ", dinero - impuesto)
+print("El dinero neto es: ", dinero - impuesto) 

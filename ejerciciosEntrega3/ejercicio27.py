@@ -3,9 +3,9 @@
 #'F'. En caso de que se cumpla lo mismo, pero el sexo sea 'M', debe imprimir 'POSIBLE'. Si no se
 #cumplen dichas condiciones se debe mostrar 'NO ACEPTADA'.
 
-nota = float(input("Ingrese la nota: "))
-edad = int(input("Ingrese la edad: "))
-sexo = input("Ingrese el sexo (F/M): ")
+nota = float(input("Introduce la nota: "))
+edad = int(input("Introduce la edad: "))
+sexo = input("Introduce el sexo (F/M): ")
 
 if nota >= 5 and edad >= 18 and sexo == 'F':
     print("ACEPTADA")

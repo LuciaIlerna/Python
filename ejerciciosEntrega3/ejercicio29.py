@@ -6,9 +6,9 @@
 #• Si los 3 lados son iguales entonces es equilátero.
 #• Si no se cumple ninguna de las condiciones anteriores, es escaleno.
 
-A = float(input("Ingrese el lado A: "))
-B = float(input("Ingrese el lado B: "))
-C = float(input("Ingrese el lado C: "))
+A = float(input("Introduce el lado A: "))
+B = float(input("Introduce el lado B: "))
+C = float(input("Introduce el lado C: "))
 
 # Si es rectángulo
 if A**2 + B**2 == C**2 or A**2 + C**2 == B**2 or B**2 + C**2 == A**2:

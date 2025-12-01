@@ -4,8 +4,8 @@
 #• El exponente sea 0, el resultado es 1.
 #• El exponente sea negativo, el resultado es 1/potencia con el exponente positivo.
 
-base = float(input("Ingrese la base: "))
-exponente = int(input("Ingrese el exponente: "))
+base = float(input("Introduce la base: "))
+exponente = int(input("Introduce el exponente: "))
 
 if exponente > 0:
     resultado = base ** exponente

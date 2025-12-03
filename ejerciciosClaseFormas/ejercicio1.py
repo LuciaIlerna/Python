@@ -14,13 +14,13 @@ altura = int(input("Introduce la altura teniendo en cuenta que el número que in
 #Superior
 for i in range(1, altura + 1):
     if i == 1:  
-        print(" " * (altura - i) + "*")
+        print("  " * (altura - i) + "*")
     else:  
-        print(" " * (altura - i) + "*" + " " * (i - 2) + "*")
+        print("  " * (altura - i) + "*" + "  " * (i - 2) + " *")
 
 #Inferior
 for i in range(altura - 1, 0, -1):  
     if i == 1:  
-        print((" " * (altura - i) + "*"))
+        print(("  " * (altura - i) + "*"))
     else:  
-        print(" " * (altura - i) + "*" + " " * (i - 2) + "*")
+        print("  " * (altura - i) + "*" + "  " * (i - 2) + " *")
